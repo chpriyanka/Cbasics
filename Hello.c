@@ -4,6 +4,6 @@
 int main()
 {
     printf("Hello world!\n");
-    printf("hey google"):
+   
     return 0;
 }
