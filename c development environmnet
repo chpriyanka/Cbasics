@@ -1,0 +1,7 @@
+c development environment
+1.edit-creates and edits program
+2.preprocessor-processes the code
+3.compile-converts c program to machine language
+4.linker-links the object code with the libraries and creates an executable file
+5.load-loads the program onto memory
+6.execute-cpu executes the code 
