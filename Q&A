@@ -1,2 +1,5 @@
 what are printf and scanf?
 they're  inbuilt libraries stored in gcc.printf writes output and scanf reads input
+what is a variable?
+its a location in memory to store a value i.e to be used in program
+types of variables-int,float,double,character,long
