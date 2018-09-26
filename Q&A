@@ -1,1 +1,2 @@
-
+what are printf and scanf?
+they're  inbuilt libraries stored in gcc.printf writes output and scanf reads input
