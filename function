@@ -13,8 +13,8 @@ func declaration-it tells the compiler about func name and how to call a func
 calling a func-when a program calls a func,the program controller goes to the func and proceed with it once the func is executed program control goes back to the main program and continues.
 While calling a function, we call it using the function name. If we have any parameters, then we pass them.
 
-Actual parameters are parameters in the function definition.
-Formal parameters are parameters in the function call.
+Formal parameters are parameters in the function definition.
+Actual parameters are parameters in the function call.
 
 2 ways of passing arguments while callig a func are:
 1.call by value-copying the values of the argument to the formal parAmeter of the func,when the value of the formal parameter is changed inside the func the actual value of the argument is not changed
