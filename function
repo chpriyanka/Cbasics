@@ -1,0 +1,54 @@
+note:
+function-set of statememnts that perform a task
+func declaration-func name,return type and parameters
+func definition-actual body of func(set of statements)
+Defining a Function-return_type function_name( parameter list ) {
+   body of the function
+}
+return type-its the data type of the value that a func returns
+func name-actual name of the func
+parameter-is the placeholder,when the func is appealed a value is passed to the parameter which is called actual parameter or ARGUMENT
+function body-has set of statements(defines the task of a func)
+func declaration-it tells the compiler about func name and how to call a func
+calling a func-when a program calls a func,the program controller goes to the func and proceed with it once the func is executed program control goes back to the main program and continues.
+to call a func its parameters need to be defined with its func name
+actual values given to the parameter are called arguments.formal parameters are local to a func in which they are defined
+two ways of passing arguments while callig a func are:
+1.call by value-copying the values of the argument to the formal parAmeter of the func,when the value of the formal parameter is changed inside the func the actual value of the argument is not changed
+ex:#include <stdio.h>
+ 
+/* function declaration */
+void swap(int *x, int *y);
+ 
+int main () {
+
+   /* local variable definition */
+   int a = 100;
+   int b = 200;
+ 
+   printf("Before swap, value of a : %d\n", a );
+   printf("Before swap, value of b : %d\n", b );
+ 
+   /* calling a function to swap the values.
+      * &a indicates pointer to a ie. address of variable a and 
+      * &b indicates pointer to b ie. address of variable b.
+   */
+   swap(&a, &b);
+ 
+   printf("After swap, value of a : %d\n", a );
+   printf("After swap, value of b : %d\n", b );
+ 
+   return 0;
+}
+2.call by reference-the address of the argument is copied into the formal parameter,so if the value of the argument is changed in the func then the actual value of the argument is changed
+and pointers are used to get the address of the argument
+ex:/* function definition to swap the values */
+void swap(int *x, int *y) {
+
+   int temp;
+   temp = *x;    /* save the value at address x */
+   *x = *y;      /* put y into x */
+   *y = temp;    /* put temp into y */
+  
+   return;
+}
