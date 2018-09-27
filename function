@@ -1,5 +1,5 @@
 note:
-function-set of statememnts that perform a task
+function-it takes the parameters and return the result
 func declaration-Function-return_type function_name( parameter list );
 func definition-actual body of func(set of statements)
 Defining a Function-return_type function_name( parameter list ) {
