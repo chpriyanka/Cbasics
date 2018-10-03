@@ -1,19 +1,24 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    int b,h;
+    int area(int, int);
+    int b,h,res;
     printf("enter the base");
     scanf("%d",&b);
     printf("enter the height");
-     scanf("%d",&h);
-    printf("area of the triangle\n,a");
+    scanf("%d",&h);
+    res= area(b,h);
+    printf("area is:%d",res);
     return 0;
 }
 int area(int b,int h)
 {
-float a;
+int a;
 a=(1.0/2)*b*h;
 return a;
 }
+
+
