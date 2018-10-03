@@ -8,7 +8,7 @@ int main()
 
     printf("enter the value of n:");
     scanf("%d",&n);
-    for(a=0;a<n;a++)
+    for(a=0;a<=n;a++)
     {
      sum+=a;
 
@@ -17,3 +17,4 @@ int main()
 
     return 0;
 }
+
