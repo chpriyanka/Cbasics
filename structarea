@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct area()
+{
+  int base;
+  int height;
+  float area;
+}
+int main()
+{
+    struct area
+}
