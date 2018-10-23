@@ -7,7 +7,7 @@ struct area()
   int height;
   float area;
 }
-int main()
+struct area data()
 {
-
+struct area a
 }
