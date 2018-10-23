@@ -9,5 +9,5 @@ struct area()
 }
 int main()
 {
-    struct area
+
 }
