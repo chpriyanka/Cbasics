@@ -1,13 +1,31 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-struct area()
+struct triangle
 {
   int base;
   int height;
   float area;
-}
-struct area data()
+};
+struct triangle input()
 {
-struct area a
+    struct triangle k;
+    printf("Enter base and height of the triangle: ");
+    scanf("%d %d",&k.base,&k.height);
+    return k;
 }
+struct triangle compute(struct triangle k)
+{
+    k.area=(k.base*k.height)/2;
+    return k;
+}
+ void output(struct triangle k)
+{
+printf("area=%f",k.area);
+}
+ int main ()
+ {
+    struct triangle k;
+    k=input();
+     k=compute(k);
+     output(k);
+     return 0;
+ }
