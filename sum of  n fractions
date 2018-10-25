@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+struct fraction
+{
+    int num;
+    int den;
+};
+struct fraction input()
+{
+    struct fraction f;
+    printf("enter num and den");
+    scanf("%d %d",&f.num,&f.den);
+}
+struct
